@@ -22,7 +22,7 @@ o = m;
 
 En una situación como esta, puede ser útil dibujar un diagrama del estado actual de las referencias de variables.
 
-![[Diagrama.png]]
+![[Seguimiento de objetos y referencias.png]]
 
 A medida que cada variable de referencia cambia el objeto al que apunta, borra o tacha la flecha entre ellos y dibuja una nueva hacia un objeto diferente.
 
