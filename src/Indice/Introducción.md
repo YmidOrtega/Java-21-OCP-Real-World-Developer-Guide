@@ -1,0 +1,7 @@
+1. [[Comprender el examen]]
+2. [[Leyendo este proyecto]]
+3. [[Estudiar para el examen]]
+4. [[Aplicar estrategias para realizar el examen]]
+5. [[Realizar el examen]]
+6. [[Mapa de objetivos]]
+7. [[Evaluación inicial]]
