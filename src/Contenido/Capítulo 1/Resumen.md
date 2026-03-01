@@ -1,0 +1,17 @@
+Java inicia la ejecución del programa con un método `main()`. La firma más común para este método ejecutado desde la línea de comando es `public static void main(String[] args)`. Los argumentos se pasan después del nombre de la clase, como en `java NameOfClass firstArgument`. Los argumentos se indexan comenzando en 0.
+
+El código Java se organiza en carpetas denominadas paquetes. Para referenciar clases en otros paquetes, se utiliza una declaración de importación (`import`). Un comodín al final de una declaración de importación significa que se desean importar todas las clases de ese paquete. No incluye los paquetes que se encuentran dentro de ese. El paquete `java.lang` es especial ya que no requiere ser importado.
+
+Para algunos elementos de clase, el orden dentro del archivo es importante. La declaración de paquete va primero, si está presente. Luego vienen las declaraciones de importación, si las hay. Después viene la declaración de clase. Se permite que los campos y métodos estén en cualquier orden dentro de la clase.
+
+Los tipos primitivos son los bloques de construcción básicos de los tipos en Java. Se ensamblan en tipos de referencia. Los tipos de referencia pueden tener métodos y se les puede asignar un valor `null`. Se permite que los literales numéricos contengan guiones bajos (`_`) siempre que no inicien ni finalicen el literal y no estén junto a un punto decimal (`.`). Las clases envoltorio son tipos de referencia, y existe una para cada primitivo. Los bloques de texto permiten crear un `String` en múltiples líneas utilizando `"""`.
+
+La declaración de una variable implica indicar el tipo de datos y asignar un nombre a la variable. Las variables que representan campos en una clase se inicializan automáticamente con sus valores correspondientes 0, `null` o `false` durante la instanciación del objeto. Las variables locales deben inicializarse específicamente antes de poder ser utilizadas.
+
+Los identificadores pueden contener letras, números, símbolos de moneda o `_`. Los identificadores no pueden comenzar con números. Las declaraciones de variables locales pueden utilizar la palabra clave `var` en lugar del tipo real. Al usar `var`, el tipo se establece una vez en tiempo de compilación y no cambia.
+
+El alcance se refiere a aquella porción de código donde se puede acceder a una variable. Existen tres tipos de variables en Java, dependiendo de su alcance: variables de instancia, variables de clase y variables locales. Las variables de instancia son los campos no estáticos de una clase. Las variables de clase son los campos estáticos dentro de una clase. Las variables locales se declaran dentro de un constructor, método o bloque de inicialización.
+
+Los constructores crean objetos Java. Un constructor es un método que coincide con el nombre de la clase y omite el tipo de retorno. Cuando se instancia un objeto, los campos y bloques de código se inicializan primero. A continuación, se ejecuta el constructor.
+
+Finalmente, la recolección de basura es responsable de eliminar objetos de la memoria cuando ya no pueden ser utilizados nunca más. Un objeto se vuelve elegible para la recolección de basura cuando no existen más referencias a él o todas sus referencias han salido del alcance.

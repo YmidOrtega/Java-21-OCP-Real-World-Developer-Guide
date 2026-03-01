@@ -1,0 +1,7 @@
+Bienvenido al comienzo del viaje para lograr una certificación en Java 21. Se asume que este no es el primer libro de programación Java que se lee. Aunque se habla de los conceptos básicos, se hace únicamente porque se desea asegurar que se cuenta con toda la terminología y los detalles necesarios para el examen.
+
+Si nunca se ha escrito un programa en Java antes, se recomienda adquirir un libro introductorio sobre Java 8 o superior. Algunos ejemplos incluyen _Head First Java, 3rd Edition_ (O’Reilly Media, 2022) y _Beginning Programming with Java for Dummies_ (For Dummies, 2021). Luego, se sugiere regresar a esta guía de estudio para la certificación.
+
+Como dice el viejo refrán, hay que aprender a caminar antes de poder correr. Del mismo modo, se deben aprender los conceptos básicos de Java antes de poder construir programas complejos. En este capítulo, se presentan los fundamentos de los paquetes, clases, variables y tipos de datos de Java, junto con los aspectos de cada uno que es necesario conocer para el examen. Por ejemplo, es posible que se utilice Java todos los días pero se desconozca que no se puede crear una variable llamada `3dMap` o `this`. El examen espera que se conozcan y comprendan las reglas detrás de estos principios.
+
+Si bien la mayor parte de este capítulo debería ser un repaso, puede haber aspectos del lenguaje Java que resulten nuevos, ya que no suelen aparecer con frecuencia en el uso práctico.
