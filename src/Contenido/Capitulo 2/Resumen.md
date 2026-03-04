@@ -1,0 +1,5 @@
+Este capítulo cubrió una amplia variedad de temas sobre operadores de Java para operadores unarios, binarios y ternarios. Idealmente, la mayoría de estos operadores fueron un repaso. Si no, es necesario estudiarlos en detalle. Es importante comprender cómo utilizar todos los operadores de Java requeridos cubiertos en este capítulo y saber cómo la precedencia de operadores y los paréntesis influyen en la forma en que se interpreta una expresión particular.
+
+Es probable que haya numerosas preguntas en el examen que parezcan evaluar una cosa, como NIO.2 o el manejo de excepciones, cuando en realidad la respuesta está relacionada con el mal uso de un operador particular que causa que la aplicación falle al compilar. Cuando se observe un operador que involucre números en el examen, siempre se debe verificar que se utilicen los tipos de datos apropiados y que coincidan entre sí donde corresponda.
+
+Los operadores se utilizan a lo largo del examen, en casi cada muestra de código, por lo que cuanto mejor se entienda este capítulo, más preparado se estará para el examen.
