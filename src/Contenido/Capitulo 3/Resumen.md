@@ -1,0 +1,13 @@
+Este capítulo presentó cómo tomar decisiones inteligentes en Java. Se cubrieron estructuras básicas de toma de decisiones como `if`, `else` y `switch`, y se mostró cómo utilizarlas para cambiar la ruta del proceso en tiempo de ejecución. También se cubrieron las expresiones `switch` y se demostró cómo a menudo conducen a un código más conciso.
+
+Tanto en las secciones de `if` como de `switch`, se mostró cómo aplicar la coincidencia de patrones (_pattern matching_) para reducir el código repetitivo (_boilerplate code_). La coincidencia de patrones, especialmente con `switch`, es una de las características más nuevas de **Java 21**, por lo que se debe esperar ver al menos una pregunta en el examen sobre ello.
+
+Luego se trasladó la discusión a las estructuras de control de repetición, también conocidas como bucles. Se mostró cómo utilizar bucles `while` y `do/while` para crear procesos que se ejecutan múltiples veces, y también se evidenció lo importante que es asegurarse de que eventualmente terminen. Recuerde que la mayoría de estas estructuras requieren la evaluación de la condición de terminación, representada como una expresión booleana, para completarse.
+
+A continuación, se cubrieron las extremadamente convenientes estructuras de control de repetición: los bucles `for` y `for-each`. Aunque su sintaxis es más compleja que la de los bucles `while` o `do/while` tradicionales, son sumamente útiles en la codificación diaria y permiten crear expresiones complejas en una sola línea de código. Con un bucle `for-each`, no es necesario escribir explícitamente una expresión booleana, ya que el compilador construye una internamente.
+
+Se concluyó este capítulo discutiendo opciones de control avanzadas y cómo el flujo puede mejorarse a través de bucles anidados combinados con sentencias `break`, `continue` y `return`. Se debe tener cuidado con las preguntas en el examen que utilizan bucles anidados, especialmente aquellos con etiquetas (_labels_), y verificar que se estén utilizando correctamente.
+
+Este capítulo es especialmente importante porque es probable que al menos un componente del mismo aparezca en cada pregunta del examen que contenga código de muestra. Muchas de las preguntas en el examen se centran en el uso sintáctico adecuado de las estructuras, ya que serán una gran fuente de preguntas cuya respuesta es «No compila» (_Does not compile_).
+
+Se debería ser capaz de responder correctamente todas las preguntas de revisión o comprender completamente aquellas que se respondieron incorrectamente antes de pasar a capítulos posteriores.
