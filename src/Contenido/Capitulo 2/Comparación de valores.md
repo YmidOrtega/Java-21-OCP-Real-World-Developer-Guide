@@ -96,7 +96,7 @@ Object obj = zooTime;
 
 En este ejemplo, solo se crea un objeto en memoria, pero hay tres referencias diferentes a él porque `Integer` hereda tanto de `Number` como de `Object`. Esto significa que se puede llamar a `instanceof` en cualquiera de estas referencias con tres tipos de datos diferentes, y devolverá `true` para cada uno de ellos.
 
-Donde el polimorfismo entra en juego a menudo es cuando se crea un método que toma un tipo de dato con muchas subclases posibles. Por ejemplo, imagínese que se tiene una función que abre el zoológico e imprime la hora. Como entrada, toma un `Number` como parámetro.
+Donde el polimorfismo entra en juego a menudo es cuando se crea un método que toma un tipo de dato con muchas subclases posibles. Por ejemplo, imagine que se tiene una función que abre el zoológico e imprime la hora. Como entrada, toma un `Number` como parámetro.
 
 ```Java
 public void openZoo(Number time) {}
