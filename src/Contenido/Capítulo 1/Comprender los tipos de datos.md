@@ -117,7 +117,7 @@ A continuación, los tipos de referencia pueden utilizarse para invocar métodos
 6: int bad = len.length(); // NO COMPILA
 ```
 
-La línea 6 carece de sentido. No existen métodos en `len` porque es un primitivo `int`. Los primitivos no poseen métodos. Recuérdese que un `String` no es un primitivo, por lo que se pueden invocar métodos como `length()` en una referencia `String`, tal como se hizo en la línea 5.
+La línea 6 carece de sentido. No existen métodos en `len` porque es un primitivo `int`. Los primitivos no poseen métodos. Recuerde que un `String` no es un primitivo, por lo que se pueden invocar métodos como `length()` en una referencia `String`, tal como se hizo en la línea 5.
 
 Finalmente, a los tipos de referencia se les puede asignar `null`, lo que significa que actualmente no refieren a un objeto. Los tipos primitivos generarán un error de compilación si se intenta asignarles `null`. En este ejemplo, `value` no puede apuntar a `null` porque es de tipo `int`:
 
