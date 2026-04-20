@@ -17,14 +17,14 @@ Las respuestas a las preguntas de revisión del capítulo se pueden encontrar al
 - [ ]  C. 6
 - [ ]  D. 8
 - [ ]  E. Exactamente una línea no compila.
-- [ ]  F. Exactamente dos líneas no compilan.
+- [x]  F. Exactamente dos líneas no compilan.
 - [ ]  G. Ninguna de las anteriores.
 
 **2.** ¿Cuáles de los siguientes tipos de datos se pueden usar en una expresión `switch`? (Elija todas las opciones que correspondan).
 
-- [ ]  A. `enum`
-- [ ]  B. `int`  
-- [ ]  C. `Byte`
+- [x]  A. `enum`
+- [x]  B. `int`  
+- [x]  C. `Byte`
 - [ ]  D. `long`
 - [ ]  E. `boolean`
 - [ ]  F. `double`
@@ -41,7 +41,7 @@ Las respuestas a las preguntas de revisión del capítulo se pueden encontrar al
 ```
 
 - [ ]  A. `Too Low`
-- [ ]  B. `Just Right`
+- [x]  B. `Just Right`
 - [ ]  C. `Too High`
 - [ ]  D. Se lanza una `NullPointerException` en tiempo de ejecución.
 - [ ]  E. El código no compilará debido a la línea 7.
@@ -50,8 +50,8 @@ Las respuestas a las preguntas de revisión del capítulo se pueden encontrar al
 **4.** ¿Cuáles de los siguientes tipos de datos están permitidos en el lado derecho de una expresión `for-each`? (Elija todas las opciones que correspondan).
 
 - [x]  A. `Double[][]`
-- [ ]  B. `Object`
-- [ ]  C. `Map`
+- [x]  B. `Object`
+- [x]  C. `Map`
 - [x]  D. `List`
 - [ ]  E. `String`
 - [x]  F. `char[]`
@@ -76,7 +76,7 @@ void printReptile(int category) {
 - [ ]  C. `Turtle`
 - [ ]  D. `Alligator`
 - [ ]  E. `TurtleAlligator`
-- [ ]  F. Ninguna de las anteriores
+- [x]  F. Ninguna de las anteriores
 
 **6.** ¿Cuál es la salida del siguiente fragmento de código?
 
@@ -100,7 +100,7 @@ for (Object c : myFavoriteNumbers)
 - [ ]  B. `10, 14,`
 - [ ]  C. `10, 10, 14,`
 - [ ]  D. `10, 10, 14, 10, 14,`
-- [ ]  E. Exactamente una línea de código no compila.
+- [x]  E. Exactamente una línea de código no compila.
 - [ ]  F. Exactamente dos líneas de código no compilan.
 - [ ]  G. Tres o más líneas de código no compilan.
 - [ ]  H. El código contiene un bucle infinito y no termina.
@@ -116,9 +116,9 @@ private void print(int[] weather) {
 ```
 
 - [ ]  A. `int i=weather.length; i>0; i--` 
-- [ ]  B. `int i=0; i<=weather.length-1; ++i`
+- [x]  B. `int i=0; i<=weather.length-1; ++i`
 - [ ]  C. `var w : weather`
-- [ ]  D. `int i=weather.length-1; i>=0; i--`
+- [x]  D. `int i=weather.length-1; i>=0; i--`
 - [ ]  E. `int i=0, int j=3; i<weather.length; i++`
 - [ ]  F. `int i=0; ++i<10 && i<weather.length;`
 
@@ -144,7 +144,7 @@ private void print(int[] weather) {
 - [ ]  D. `unknown`
 - [ ]  E. No se imprime nada.
 - [ ]  F. El código contiene una línea que no compila.
-- [ ]  G. El código contiene dos líneas que no compilan.
+- [x]  G. El código contiene dos líneas que no compilan.
 - [ ]  H. Ninguna de las anteriores.
 
 **9.** ¿Qué sentencias, cuando se insertan de forma independiente en el siguiente espacio en blanco, harán que el código imprima 2 en tiempo de ejecución? (Elija todas las opciones que correspondan).

@@ -108,7 +108,7 @@ Cuando se ejecuta, este código emitirá lo siguiente:
 
 `Value 2 found at: (1,1)`
 
-En particular, observe la sentencia `break PARENT_LOOP`. Esta sentencia saldrá de **toda** la estructura del bucle tan pronto como se encuentre el primer valor coincidente. Ahora, imagínese qué sucedería si se reemplazara el cuerpo del bucle interno con lo siguiente:
+En particular, observe la sentencia `break PARENT_LOOP`. Esta sentencia saldrá de **toda** la estructura del bucle tan pronto como se encuentre el primer valor coincidente. Ahora, imagine qué sucedería si se reemplazara el cuerpo del bucle interno con lo siguiente:
 
 ```Java
 19: if (list[i][j]==searchValue) {
@@ -146,7 +146,7 @@ Ahora se ampliará la discusión sobre el control avanzado de bucles con la sent
 
 Es posible notar que la sintaxis de la sentencia `continue` refleja la de la sentencia `break`. De hecho, las sentencias son idénticas en cómo se utilizan, pero con resultados diferentes. Mientras que la sentencia `break` transfiere el control a la sentencia envolvente, la sentencia `continue` transfiere el control a la **expresión booleana** que determina si el bucle debería continuar. En otras palabras, **finaliza la iteración actual** del bucle. Además, al igual que la sentencia `break`, la sentencia `continue` se aplica al bucle interno más cercano en ejecución, utilizando sentencias de etiqueta opcionales para anular este comportamiento.
 
-Se examinará un ejemplo. Imagínese que se tiene un cuidador de zoológico que debe limpiar el primer leopardo en cada uno de cuatro establos, pero saltar el establo 'b' por completo.
+Se examinará un ejemplo. imagine que se tiene un cuidador de zoológico que debe limpiar el primer leopardo en cada uno de cuatro establos, pero saltar el establo 'b' por completo.
 
 ```Java
 1: public class CleaningSchedule {
@@ -171,7 +171,7 @@ Cleaning: c,1
 Cleaning: d,1
 ```
 
-Ahora, imagínese que se elimina la etiqueta `CLEANING` en la sentencia `continue` para que el control se devuelva al bucle interno en lugar del externo. La línea 6 se convierte en lo siguiente:
+Ahora, imagine que se elimina la etiqueta `CLEANING` en la sentencia `continue` para que el control se devuelva al bucle interno en lugar del externo. La línea 6 se convierte en lo siguiente:
 
 ```Java
 6: continue;

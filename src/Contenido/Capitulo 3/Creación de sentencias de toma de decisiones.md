@@ -4,7 +4,7 @@ Sin embargo, escribir software trata de algo más que gestionar variables; trata
 
 ### Creación de sentencias de toma de decisiones
 
-Los operadores de Java permiten crear muchas expresiones complejas, pero están limitados en la manera en que pueden controlar el flujo del programa. Imagínese que se desea ejecutar un método solo bajo ciertas condiciones que no pueden evaluarse hasta el tiempo de ejecución. Por ejemplo, en días lluviosos, un zoológico debería recordar a los clientes que lleven un paraguas, o en un día de nieve, el zoológico podría necesitar cerrar. El software no cambia, pero el comportamiento del software debería hacerlo, dependiendo de las entradas suministradas en el momento. En esta sección, se discuten las sentencias de toma de decisiones, incluyendo `if` y `else`, junto con la coincidencia de patrones (_pattern matching_).
+Los operadores de Java permiten crear muchas expresiones complejas, pero están limitados en la manera en que pueden controlar el flujo del programa. imagine que se desea ejecutar un método solo bajo ciertas condiciones que no pueden evaluarse hasta el tiempo de ejecución. Por ejemplo, en días lluviosos, un zoológico debería recordar a los clientes que lleven un paraguas, o en un día de nieve, el zoológico podría necesitar cerrar. El software no cambia, pero el comportamiento del software debería hacerlo, dependiendo de las entradas suministradas en el momento. En esta sección, se discuten las sentencias de toma de decisiones, incluyendo `if` y `else`, junto con la coincidencia de patrones (_pattern matching_).
 
 ### Sentencias y bloques
 
@@ -45,7 +45,7 @@ A menudo, se desea ejecutar un bloque solo bajo ciertas circunstancias. La sente
 
 ![[La estructura de una instrucción if.png]]
 
-Por ejemplo, imagínese que se tiene una función que utiliza la hora del día, un valor entero de 0 a 23, para mostrar un mensaje al usuario:
+Por ejemplo, imagine que se tiene una función que utiliza la hora del día, un valor entero de 0 a 23, para mostrar un mensaje al usuario:
 
 ```Java
 if (hourOfDay < 11)
@@ -54,7 +54,7 @@ if (hourOfDay < 11)
 
 Si la hora del día es menor que 11, entonces se mostrará el mensaje.
 
-Ahora supóngase que también se desea incrementar algún valor, `morningGreetingCount`, cada vez que se imprime el saludo. Se podría escribir la sentencia `if` dos veces, pero afortunadamente Java ofrece un enfoque más natural utilizando un bloque:
+Ahora suponga que también se desea incrementar algún valor, `morningGreetingCount`, cada vez que se imprime el saludo. Se podría escribir la sentencia `if` dos veces, pero afortunadamente Java ofrece un enfoque más natural utilizando un bloque:
 
 ```Java
 if (hourOfDay < 11) {
@@ -65,7 +65,7 @@ if (hourOfDay < 11) {
 
 ### Atención a la indentación y las llaves
 
-Un área donde los creadores del examen intentarán confundir al candidato es con las sentencias `if` sin llaves (`{}`). Por ejemplo, obsérvese esta forma ligeramente modificada del ejemplo anterior:
+Un área donde los creadores del examen intentarán confundir al candidato es con las sentencias `if` sin llaves (`{}`). Por ejemplo, observe esta forma ligeramente modificada del ejemplo anterior:
 
 ```Java
 if (hourOfDay < 11)
