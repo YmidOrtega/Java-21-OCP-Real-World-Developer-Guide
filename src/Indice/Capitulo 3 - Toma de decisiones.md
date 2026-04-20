@@ -4,6 +4,6 @@
 4. [[Construcción de bucles for]]
 5. [[Control del flujo con ramificaciones (Branching)]]
 6. [[Contenido/Capitulo 3/Resumen|Resumen]] 
-7. [[Contenido/Capitulo 3/Aspectos esenciales del examen|Aspectos esenciales del examen]]
+7. [[Contenido/Capitulo 3/Aspectos esenciales del examen]]
 8. [[Contenido/Capitulo 3/Preguntas de repaso|Preguntas de repaso]]
 9. [[Contenido/Capitulo 3/Respuestas del repaso|Respuestas del repaso]]
