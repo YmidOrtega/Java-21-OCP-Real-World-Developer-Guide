@@ -4,7 +4,7 @@ Al fin y al cabo, el examen es una lista de preguntas. Cuanto más sepas sobre l
 
 ### Eligiendo qué examen tomar
 
-[[Java]] tiene ahora unos 30 años, celebrando su "nacimiento" en 1995. Como con cualquier cosa de esa edad, hay una buena cantidad de historia y variación entre las diferentes versiones de Java. A lo largo de los años, los exámenes de certificación han cambiado para cubrir diferentes temas. El número de exámenes y los nombres de las certificaciones también han cambiado.
+Java tiene ahora unos 30 años, celebrando su "nacimiento" en 1995. Como con cualquier cosa de esa edad, hay una buena cantidad de historia y variación entre las diferentes versiones de Java. A lo largo de los años, los exámenes de certificación han cambiado para cubrir diferentes temas. El número de exámenes y los nombres de las certificaciones también han cambiado.
 
 Oracle ha simplificado las cosas con el tiempo. Convertirse en un OCP ahora requiere aprobar solo un examen, no dos, y no hay exámenes de actualización (upgrade) para Java 21. Independientemente de las certificaciones previas que poseas, todos toman el mismo examen de Java 21 para convertirse en un Oracle Certified Professional.
 
