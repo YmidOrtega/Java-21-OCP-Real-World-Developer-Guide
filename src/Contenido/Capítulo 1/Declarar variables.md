@@ -110,7 +110,7 @@ Las líneas 4 y 5 son legales. Cada una declara dos variables. La línea 4 no in
 
 La línea 6 no es legal. Java no permite declarar dos tipos diferentes en la misma sentencia. Un momento. Las variables `d1` y `d2` son del mismo tipo. Ambas son de tipo `double`. Aunque eso es cierto, sigue sin estar permitido. Si se desea declarar múltiples variables en la misma sentencia, deben compartir la misma declaración de tipo y no repetirla.
 
-La línea 8 no es legal. Nuevamente, hay dos sentencias completamente diferentes en la misma línea. La segunda en la línea 8 no es una validación válida porque omite el tipo. Cuando se observe un punto y coma colocado de forma extraña en el examen, imagínese que el código está en líneas separadas y analícese si el código compila de esa manera. En este caso, las últimas dos líneas de código podrían reescribirse de la siguiente manera:
+La línea 8 no es legal. Nuevamente, hay dos sentencias completamente diferentes en la misma línea. La segunda en la línea 8 no es una validación válida porque omite el tipo. Cuando se observe un punto y coma colocado de forma extraña en el examen, imagine que el código está en líneas separadas y analice si el código compila de esa manera. En este caso, las últimas dos líneas de código podrían reescribirse de la siguiente manera:
 
 ```Java
 int i1;
