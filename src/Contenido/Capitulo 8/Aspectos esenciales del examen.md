@@ -1,0 +1,9 @@
+**Escribir expresiones lambda simples.** **Hay que** buscar la presencia o ausencia de elementos opcionales en el código lambda. Los tipos de los parámetros **son** opcionales. Las llaves, un punto y coma y la palabra clave `return` **son** opcionales cuando el cuerpo **es** una única sentencia. Los paréntesis **son** opcionales cuando solo **se especifica** un parámetro y el tipo **es** implícito.
+
+**Determinar si una variable puede ser usada en el cuerpo de una lambda.** Las variables locales y los parámetros de métodos deben **ser** `final` o efectivamente finales para **ser** referenciados. Esto significa que el código debe compilar si **se añade** la palabra clave `final` a estas variables. Las variables de instancia y de clase **siempre están** permitidas.
+
+**Traducir referencias a métodos a la lambda "en forma larga".** **Hay que** ser capaz de convertir referencias a métodos en expresiones lambda regulares, y viceversa. Por ejemplo, `System.out::print` y `x -> System.out.print(x)` **son** equivalentes. **Se debe recordar** que el orden de los parámetros del método **se infiere** para las referencias a métodos.
+
+**Determinar si una interfaz es una interfaz funcional.** **Se usa** la regla del método abstracto único (SAM) para determinar si una interfaz **es** una interfaz funcional. Otros tipos de métodos de interfaz (`default`, `private`, `static` y `private static`) no **cuentan** para el conteo del método abstracto único, ni tampoco los métodos `public` con firmas encontradas en `Object`.
+
+**Identificar la interfaz funcional correcta dado el número de parámetros, el tipo de retorno y el nombre del método, y viceversa.** Las interfaces funcionales más comunes **son** `Supplier`, `Consumer`, `Function` y `Predicate`. También hay versiones binarias y versiones primitivas de muchos de estos métodos. **Se puede** usar el número de parámetros y el tipo de retorno para distinguirlas.
