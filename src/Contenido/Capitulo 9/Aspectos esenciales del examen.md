@@ -1,0 +1,9 @@
+**Elegir el tipo correcto de colección a partir de una descripción.** Una `List` permite duplicados y ordena los elementos. Un `Set` no permite duplicados. Una `Deque` ordena sus elementos para facilitar las recuperaciones desde el frente o el final. Un `Map` mapea claves a valores. **Hay que** estar familiarizado con las diferencias en las implementaciones de estas interfaces.
+
+**Trabajar con métodos de conveniencia.** El Collections Framework contiene muchos métodos como `contains()`, `forEach()` y `removeIf()` que **se necesitan** conocer para el examen. Hay demasiados para listarlos en este párrafo de revisión, así que por favor **se deben** revisar las tablas en este capítulo.
+
+**Entender cómo usar colecciones secuenciadas.** Aparte de `HashSet` y `HashMap`, la mayoría de las clases de colección ahora implementan una interfaz de colección secuenciada (`SequencedCollection` o `SequencedMap` o `SequencedSet`). Esto incluye métodos que **permiten** iterar sobre la colección en un orden de encuentro predecible. Estos métodos facilitan el trabajo con tipos relacionados mediante una interfaz coherente.
+
+**Diferenciar entre `Comparable` y `Comparator`.** Las clases que implementan `Comparable` **se dice** que tienen un ordenamiento natural e implementan el método `compareTo()`. Una clase solo puede tener un orden natural. Un `Comparator` toma dos objetos en el método `compare()`. Los diferentes `Comparator` pueden tener distintos órdenes de clasificación. Un `Comparator` a menudo **se implementa** usando una lambda como `(a, b) -> a.num - b.num`.
+
+**Identificar usos válidos e inválidos de genéricos y comodines.** `<T>` representa un parámetro de tipo. **Se puede** usar cualquier nombre, pero una sola letra mayúscula **es** la convención. `<?>` **es** un comodín no acotado. `<? extends X>` **es** un comodín con límite superior. `<? super X>` **es** un comodín con límite inferior.
