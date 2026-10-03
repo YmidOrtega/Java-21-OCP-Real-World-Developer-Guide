@@ -1,180 +1,98 @@
 # Java 21 OCP Real-World Developer Guide
 
-Una guía completa y práctica para prepararte y dominar el examen **Oracle Certified Associate Java Programmer (OCP)** para **Java 21**. Este repositorio contiene teoría, ejemplos reales y mejor práctica.
+Notas de estudio en español para preparar el examen **Oracle Certified Professional: Java SE 21 Developer (1Z0-830)**, con explicaciones, ejemplos y una orientación práctica al desarrollo del día a día.
+
+## 📘 Basado en
+
+Este proyecto nace de la lectura y el estudio del libro:
+
+> **OCP Oracle Certified Professional Java SE 21 Developer Study Guide: Exam 1Z0-830**
+> *Jeanne Boyarsky y Scott Selikoff* — Sybex (Wiley)
+
+La estructura de capítulos sigue la del libro. Estas notas son un resumen personal y **no sustituyen al libro**: si te resultan útiles, te recomiendo adquirirlo para tener el material completo y apoyar a sus autores.
 
 ## 📚 Contenidos
 
-Este proyecto está organizado en **14 capítulos** que cubren todos los temas necesarios para aprobar el examen OCP de Oracle:
+El proyecto está organizado en una introducción y **14 capítulos**:
 
-### 📖 Capítulos
+| #  | Capítulo                           | Temas principales                                              | Estado |
+|----|------------------------------------|----------------------------------------------------------------|:------:|
+| —  | Introducción                       | El examen, estrategias de estudio, mapa de objetivos, evaluación inicial | ✅ |
+| 1  | Bloques de Construcción            | Estructura de clases, paquetes e imports, tipos de datos, variables y alcance | ✅ |
+| 2  | Operadores                         | Operadores unarios, binarios, de asignación y comparación, ternario | ✅ |
+| 3  | Toma de decisiones                 | `if`, `switch` y pattern matching, bucles, control de flujo    | ✅ |
+| 4  | API principales                    | `String`, `StringBuilder`, arrays, `Math`, fechas y horas      | ✅ |
+| 5  | Métodos                            | Diseño de métodos, modificadores de acceso, `static`, varargs, sobrecarga | ✅ |
+| 6  | Diseño de clases                   | Herencia, constructores, inicialización, clases abstractas, inmutabilidad | ✅ |
+| 7  | Más allá de las clases             | Interfaces, enums, sealed classes, records, clases anidadas, polimorfismo | ✅ |
+| 8  | Lambdas e Interfaces Funcionales   | Lambdas, referencias a métodos, interfaces funcionales integradas | ✅ |
+| 9  | Colecciones y Genéricos            | `List`, `Set`, `Queue`, `Map`, ordenación, colecciones secuenciadas, genéricos | ✅ |
+| 10 | Streams                            | `Optional`, Stream API, streams primitivos, pipelines avanzados | ✅ |
+| 11 | Excepciones y Localización         | Manejo de excepciones, recursos, formato de valores, internacionalización | ⏳ |
+| 12 | Módulos                            | Programas modulares, declaraciones de módulos, servicios, migración | ⏳ |
+| 13 | Concurrencia                       | Hilos, Concurrency API, código thread-safe, streams paralelos  | ⏳ |
+| 14 | I/O                                | Archivos y directorios, streams de I/O, NIO.2, serialización   | ⏳ |
 
-1. **Chapter 1: Building Blocks**
-   - Environment & Class Structure
-   - Package Declarations and Imports
-   - Creating Objects & Data Types
-   - Variables & Scope Management
+Cada capítulo incluye sus secciones teóricas, un **resumen**, los **aspectos esenciales del examen**, **preguntas de repaso** y sus **respuestas**.
 
-2. **Chapter 2: Operators**
-   - Unary, Binary & Arithmetic Operators
-   - Assignment & Comparison
-   - Ternary Decision Making
-
-3. **Chapter 3: Making Decisions**
-   - Decision-Making Statements (if-else, switch)
-   - while, for Loops
-   - Branching Control Flow
-
-4. **Chapter 4: Core APIs**
-   - String & StringBuilder
-   - Arrays & Equality
-   - Math APIs & Date/Time
-
-5. **Chapter 5: Methods**
-   - Method Design & Local Variables
-   - Access Modifiers & Static Data
-   - Varargs & Method Overloading
-
-6. **Chapter 6: Class Design**
-   - Inheritance & Object Initialization
-   - Constructors & Abstract Classes
-   - Immutable Objects
-
-7. **Chapter 7: Beyond Classes**
-   - Interfaces & Enums
-   - Sealed Classes & Records
-   - Nested Classes & Polymorphism
-
-8. **Chapter 8: Lambdas and Functional Interfaces**
-   - Simple Lambdas & Functional Interfaces
-   - Method References
-   - Built-in Functional Interfaces
-
-9. **Chapter 9: Collections and Generics**
-   - List, Set, Queue & Map Interfaces
-   - Sorting & Sequenced Collections
-   - Generics & Type Safety
-
-10. **Chapter 10: Streams**
-    - Optional & Stream API
-    - Primitive Streams
-    - Advanced Stream Pipelines
-
-11. **Chapter 11: Exceptions and Localization**
-    - Exception Handling & Resource Management
-    - Value Formatting
-    - Internationalization & Resource Bundles
-
-12. **Chapter 12: Modules**
-    - Creating Modular Programs
-    - Module Declarations & Services
-    - Migration Strategies
-
-13. **Chapter 13: Concurrency**
-    - Threads & Concurrency API
-    - Thread-Safe Code
-    - Concurrent Collections & Parallel Streams
-
-14. **Chapter 14: I/O**
-    - Files & Directories Operations
-    - I/O Streams & File Reading/Writing
-    - Serialization & Advanced APIs
-
-## 🎯 Objetivo
-
-Este guía está diseñada para:
-
-✅ Prepararte completamente para el examen **OCP (1Z0-829)** de Java 21  
-✅ Proporcionar ejemplos prácticos y reales  
-✅ Explicar conceptos complejos de forma clara y accesible  
-✅ Ofrecer ejercicios y casos de uso del mundo real  
-
-## 💡 Recomendación: Usar Obsidian
-
-Se **recomienda ampliamente** usar [Obsidian](https://obsidian.md/) para visualizar y navegar las notas de este proyecto. Obsidian proporciona:
-
-- 📌 Vista de gráfico de conocimiento para conectar conceptos
-- 🔗 Enlaces bidireccionales entre temas
-- 🎨 Soporte para Markdown con tema oscuro
-- 🔍 Búsqueda rápida entre notas
-- 📁 Gestión de carpetas y bóvedas locales
-
-Para usarlo con este repositorio:
-1. Descarga [Obsidian](https://obsidian.md/)
-2. Abre esta carpeta como bóveda local
-3. Explora los capítulos de forma interactiva
-
-## 📝 Contenido del Repositorio
+## 📝 Estructura del repositorio
 
 ```
 Java-21-OCP-Real-World-Developer-Guide/
-├── src/                 # Código fuente con ejemplos prácticos
-│   ├── chapter-1/       # Fundamentos de Java
-│   ├── chapter-2/       # Tipos de datos
-│   ├── chapter-3/       # Operadores y control de flujo
-│   ├── ... (capítulos 4-14)
-├── README.md           # Este archivo
-└── notes/              # Notas complementarias (compatible con Obsidian)
+├── src/
+│   ├── Indice/          # Una nota por capítulo con enlaces a sus secciones
+│   └── Contenido/       # Notas de cada capítulo (con sus imágenes)
+│       ├── Introducción/
+│       ├── Capítulo 1/
+│       └── ...
+└── README.md
 ```
 
-## 🚀 Cómo Usar Este Proyecto
+## 💡 Recomendación: usar Obsidian
 
-1. **Estudia cada capítulo** siguiendo el orden propuesto
-2. **Ejecuta los ejemplos** de código en tu IDE favorito
-3. **Practica los ejercicios** al final de cada capítulo
-4. **Refuerza conceptos** usando Obsidian para conectar ideas
+Las notas están escritas en Markdown con enlaces de [Obsidian](https://obsidian.md/) (`[[...]]`), así que se aprovechan mejor desde ahí:
 
-## 📊 Requisitos Previos
+1. Descarga [Obsidian](https://obsidian.md/).
+2. Abre la carpeta `src/` como bóveda.
+3. Empieza por las notas de `Indice/` y navega a cada sección.
 
-- Java 21 instalado ([Descargar](https://www.oracle.com/java/technologies/downloads/#java21))
-- Un IDE como IntelliJ IDEA, Eclipse o VS Code
-- Conocimientos básicos de programación
-- Obsidian (recomendado para visualizar notas)
+En GitHub también se pueden leer, aunque los enlaces internos no serán clicables.
 
-## 🎓 Examen OCP
+## 🚀 Cómo usar este proyecto
 
-**Oracle Certified Associate Java Programmer (1Z0-829)**
+1. Sigue los capítulos en orden, empezando por la introducción.
+2. Escribe y ejecuta los fragmentos de código en tu IDE para comprobar el comportamiento.
+3. Responde las preguntas de repaso antes de mirar las respuestas.
+4. Repasa el resumen y los aspectos esenciales antes del examen.
 
-- **Duración**: 90 minutos
-- **Preguntas**: 50 preguntas
-- **Requisitos**: 68% de calificación para aprobar
-- **Costo**: $245 USD
-- **Nivel**: Intermedio-Avanzado
+**Requisitos:** [JDK 21](https://www.oracle.com/java/technologies/downloads/#java21), un IDE (IntelliJ IDEA, Eclipse o VS Code) y conocimientos básicos de programación.
+
+## 🎓 Sobre el examen 1Z0-830
+
+- **Certificación:** Oracle Certified Professional: Java SE 21 Developer
+- **Duración:** 120 minutos
+- **Preguntas:** 50 (opción múltiple)
+- **Puntuación mínima:** 68 %
+
+Los datos pueden cambiar; consulta siempre la [página oficial del examen en Oracle University](https://education.oracle.com/) para información actualizada, precio y objetivos.
 
 ## 💬 Contribuciones
 
-Las contribuciones son bienvenidas. Si encuentras errores, tienes sugerencias o quieres agregar contenido:
+Si encuentras errores o tienes sugerencias, abre un *issue* o un *pull request*.
 
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/mejora`)
-3. Commit tus cambios (`git commit -m 'Agrega mejora'`)
-4. Push a la rama (`git push origin feature/mejora`)
-5. Abre un Pull Request
+## ⚖️ Aviso
 
-## 📄 Licencia
-
-Este proyecto está bajo licencia **MIT**. Puedes usar, modificar y distribuir el código libremente, siempre que incluyas la atribución original.
-
-## 📞 Contacto y Soporte
-
-Si tienes preguntas o necesitas ayuda, puedes:
-
-- 📧 Crear un issue en este repositorio
-- 💼 Conectar en LinkedIn
-- 🐙 Visitar mi perfil de GitHub
+Este es un proyecto personal de estudio, sin ánimo de lucro, y **no está afiliado ni respaldado** por Oracle, Sybex/Wiley ni los autores del libro. El contenido original del libro *OCP Oracle Certified Professional Java SE 21 Developer Study Guide* es propiedad de sus autores y su editorial. Oracle y Java son marcas registradas de Oracle y/o sus filiales.
 
 ---
 
 <div align="center">
 
-**Built with ☕ Java and 📈 Real-World Development**
-
-**by [Ymid Ortega](https://github.com/YmidOrtega)**
+**Hecho con ☕ por [Ymid Ortega](https://github.com/YmidOrtega)**
 
 [![GitHub](https://img.shields.io/badge/GitHub-YmidOrtega-181717?logo=github)](https://github.com/YmidOrtega)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin)](https://linkedin.com/in/ymidortega)
 
-*If you found this project useful, consider giving it a ⭐!*
-
-**© 2026 Ymid Ortega. All Rights Reserved.**
+*Si este proyecto te resulta útil, ¡considera darle una ⭐!*
 
 </div>
