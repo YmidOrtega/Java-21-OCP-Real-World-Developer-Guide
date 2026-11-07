@@ -15,7 +15,3 @@
 **Formatear fechas, números y mensajes.** **Hay que** ser capaz de **formatear** fechas, números y mensajes en varios formatos `String`, y saber cómo el local **influencia** estos formatos. **Hay que** saber cómo los distintos formateadores de número (moneda, porcentaje, compacto) **difieren**. **Hay que** ser capaz de **escribir** un formateador de fecha o número personalizado usando símbolos, incluyendo saber cómo **escapar** valores literales.
 
 **Determinar qué paquete de recursos usará Java para buscar una clave.** **Hay que** ser capaz de **crear** paquetes de recursos para un conjunto de locales usando archivos de propiedades. **Hay que** conocer el orden de búsqueda que Java usa para **seleccionar** un paquete de recursos y cómo **se consideran** el local predeterminado y el paquete de recursos predeterminado. Una vez que **se encuentra** un paquete de recursos, **hay que** reconocer la jerarquía usada para **seleccionar** valores.
-
----
-
-**Ver también:** [[Contenido/Capitulo 11/Resumen]] | [[Comprendiendo las Excepciones]] | [[Reconociendo las Clases de Excepción]] | [[Manejando Excepciones]] | [[Formateando Valores]] | [[Internacionalización y Localización]]

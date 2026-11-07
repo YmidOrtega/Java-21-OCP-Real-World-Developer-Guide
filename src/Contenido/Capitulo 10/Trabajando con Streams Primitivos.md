@@ -269,7 +269,3 @@ Aquí **se le pidió** a Java que **realizara** muchos cálculos sobre el stream
 - **`getSum()`:** **Devuelve** la suma como un `double` para `DoubleSummaryStatistics`, y como `long` para `IntSummaryStatistics` y `LongSummaryStatistics`.
 - **`getMin()`:** **Devuelve** el número más pequeño (mínimo) como `double`, `int` o `long`, dependiendo del tipo del stream. Si el stream está vacío, **devuelve** el valor numérico más grande basado en el tipo.
 - **`getMax()`:** **Devuelve** el número más grande (máximo) como `double`, `int` o `long` dependiendo del tipo del stream. Si el stream está vacío, **devuelve** el valor numérico más pequeño basado en el tipo.
-
----
-
-**Ver también:** [[Arrays]] | [[Algoritmos]]

@@ -294,5 +294,3 @@ java.lang.RuntimeException: no puede saltar
 ```
 
 La primera línea muestra lo que Java imprime por defecto: el tipo de excepción y el mensaje. La segunda línea muestra solo el mensaje. El resto muestra un rastro de pila. **El rastro de pila suele ser lo más útil** porque muestra la jerarquía de llamadas a métodos que se realizaron para llegar a la línea que lanzó la excepción.
-
-**Ver también:** [[Reconociendo las Clases de Excepción]] | [[Manejando Excepciones]]

@@ -512,8 +512,3 @@ newBag.tryAdvance(System.out::print); // 3
 **Se podría** haber notado que este es un stream infinito. ¡No hay problema! El `Spliterator` **reconoce** que el stream es infinito y no intenta **darle** la mitad. En cambio, `newBag` contiene una gran cantidad de elementos. **Se obtienen** los primeros tres ya que **se llama** a `tryAdvance()` tres veces. Sería una mala idea llamar a `forEachRemaining()` en un stream infinito.
 
 **Hay que notar** que un `Spliterator` puede tener una serie de características como `CONCURRENT`, `ORDERED`, `SIZED` y `SORTED`. Solo **se verá** un `Spliterator` directo en el examen. Por ejemplo, el stream infinito no era `SIZED`.
-
----
-
-**Ver también:** [[Arrays]] | [[Algoritmos]]
-

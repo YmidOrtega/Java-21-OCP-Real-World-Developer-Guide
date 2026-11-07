@@ -449,7 +449,3 @@ split.tryAdvance(System.out::print);
 - [ ] D. No hay salida.
 - [ ] E. El código no compila.
 - [ ] F. El código compila pero no termina en tiempo de ejecución.
-
----
-
-**Ver también:** [[Arrays]] | [[Algoritmos]]

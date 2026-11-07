@@ -7,7 +7,3 @@ Además de la interfaz `Stream<T>`, hay tres streams primitivos: `DoubleStream`,
 **Se puede** usar un `Collector` para **transformar** un stream en una colección tradicional. Incluso **se pueden** agrupar campos para **crear** un mapa complejo en una sola línea. La partición funciona igual que la agrupación, excepto que las claves son siempre `true` y `false`. Un mapa particionado siempre tiene dos claves, incluso si el valor está vacío para la clave. Un recopilador de _teeing_ permite **combinar** los resultados de dos recopiladores.
 
 **Se deben** memorizar las Tablas 10.6 y 10.7. Como mínimo, **hay que** poder **detectar** incompatibilidades, como diferencias de tipo. Finalmente, **hay que recordar** que los streams **se evalúan** perezosamente. Toman lambdas o referencias a métodos como parámetros, que **se ejecutan** más tarde cuando **se ejecuta** el método.
-
----
-
-**Ver también:** [[Arrays]] | [[Algoritmos]]

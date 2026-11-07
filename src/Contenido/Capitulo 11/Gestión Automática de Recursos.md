@@ -343,7 +343,3 @@ Exception in thread "main" java.lang.RuntimeException:
 ```
 
 Esto siempre ha sido y sigue siendo una mala práctica de programación. ¡No **se quieren** perder excepciones! Aunque está fuera del alcance del examen, la razón tiene que ver con la compatibilidad hacia atrás: este comportamiento existía antes de que **se añadiera** la gestión automática de recursos.
-
----
-
-**Ver también:** [[Manejando Excepciones]] | [[Comprendiendo las Excepciones]] | [[Reconociendo las Clases de Excepción]]

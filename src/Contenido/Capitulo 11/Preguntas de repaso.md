@@ -577,7 +577,3 @@ public void transform(String c) {
 - [ ] E. `NumberFormatException e`
 - [ ] F. `ClassCastException f`
 - [ ] G. Ninguna de las anteriores. El código contiene un error del compilador independientemente de lo que **se inserte** en el espacio en blanco.
-
----
-
-**Ver también:** [[Contenido/Capitulo 11/Aspectos esenciales del examen]] | [[Contenido/Capitulo 11/Resumen]]

@@ -348,7 +348,3 @@ public static void main(String[] args) {
 El código **imprime** los mismos datos tres veces. Primero **imprime** la variable de dinero y el valor de idioma de `spain` usando el local `en_US`. Luego **lo imprime** usando la categoría `DISPLAY` de `es_ES`, mientras que la categoría `FORMAT` permanece `en_US`. Finalmente, **imprime** los datos usando ambas categorías **establecidas** a `es_ES`.
 
 Para el examen, no **hay que** memorizar las diversas opciones de visualización y formateo para cada categoría. Solo **hay que** saber que **se pueden** establecer partes del local de forma independiente. También **hay que** saber que llamar a `Locale.setDefault(Locale.US)` después del fragmento de código anterior **cambiará** ambas categorías de local a `en_US`.
-
----
-
-**Ver también:** [[Cargando Propiedades con Paquetes de Recursos]] | [[Formateando Valores]] | [[Manejando Excepciones]]

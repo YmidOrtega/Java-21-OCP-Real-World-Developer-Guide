@@ -207,7 +207,3 @@ Los errores son excepciones no verificadas que extienden la clase `Error`. **Son
 | `NoClassDefFoundError` | Se lanza cuando la clase que el código usa está disponible en tiempo de compilación pero no en tiempo de ejecución. |
 
 Para el examen, **basta con saber** que estos errores no **están verificados** y que el código a menudo **no puede** recuperarse de ellos.
-
----
-
-**Ver también:** [[Comprendiendo las Excepciones]] | [[Manejando Excepciones]] | [[Gestión Automática de Recursos]] | [[Contenido/Capitulo 11/Resumen]]

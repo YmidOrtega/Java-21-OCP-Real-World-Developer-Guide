@@ -219,7 +219,3 @@ DateTimeFormatter.ofPattern("'Time is: hh:mm: "); // IllegalArgumentException
 ```
 
 No terminar una secuencia de escape **disparará** una excepción en tiempo de ejecución.
-
----
-
-**Ver también:** [[Internacionalización y Localización]] | [[Manejando Excepciones]]

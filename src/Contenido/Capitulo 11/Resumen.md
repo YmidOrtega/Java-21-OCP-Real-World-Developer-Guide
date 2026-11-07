@@ -11,7 +11,3 @@ La localización implica **crear** programas que **se adapten** al cambio. **Se 
 Un `ResourceBundle` permite **especificar** pares clave/valor en un archivo de propiedades. Java **recorre** los paquetes de recursos candidatos del más específico al más general para **encontrar** una coincidencia. Si no **se encuentran** coincidencias para el local solicitado, Java **cambia** al local predeterminado y luego finalmente al paquete de recursos predeterminado. Una vez que **se encuentra** un paquete de recursos coincidente, Java busca solo en la jerarquía de ese paquete de recursos para **seleccionar** valores.
 
 Al **aplicar** los principios aprendidos en este capítulo a los proyectos propios, **se pueden construir** aplicaciones que **duren** más tiempo, con soporte integrado para cualquier evento inesperado que pueda surgir.
-
----
-
-**Ver también:** [[Comprendiendo las Excepciones]] | [[Reconociendo las Clases de Excepción]] | [[Manejando Excepciones]] | [[Formateando Valores]] | [[Internacionalización y Localización]] | [[Contenido/Capitulo 11/Aspectos esenciales del examen]]

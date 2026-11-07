@@ -239,7 +239,3 @@ La clase `Properties` también incluye un método `get()`, pero solo `getPropert
 props.get("open");                                // 10am
 props.get("open", "The zoo will be open soon");   // NO COMPILA
 ```
-
----
-
-**Ver también:** [[Internacionalización y Localización]] | [[Formateando Valores]] | [[Contenido/Capitulo 11/Resumen]]

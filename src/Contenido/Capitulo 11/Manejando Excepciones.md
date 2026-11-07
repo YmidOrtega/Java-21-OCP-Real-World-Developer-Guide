@@ -317,7 +317,3 @@ Si `info` fuera `null`, el bloque `finally` **se ejecutaría**, pero **se detend
 > ```
 >
 > `System.exit()` le dice a Java: "Para. Termina el programa ahora mismo. No pases por la salida. No recojas los $200." Cuando **se llama** a `System.exit()` en el bloque `try` o `catch`, el bloque `finally` no **se ejecuta**.
-
----
-
-**Ver también:** [[Gestión Automática de Recursos]] | [[Comprendiendo las Excepciones]] | [[Reconociendo las Clases de Excepción]]

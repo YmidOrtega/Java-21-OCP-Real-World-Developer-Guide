@@ -17,7 +17,3 @@
 **Ordenar un stream.** El método `sorted()` es una operación intermedia que **ordena** un stream. Hay dos versiones: la firma con cero parámetros que **ordena** usando el orden de clasificación natural, y la firma con un parámetro que **ordena** usando ese `Comparator` como orden de clasificación.
 
 **Comparar `groupingBy()` y `partitioningBy()`.** El método `groupingBy()` **se usa** en una operación terminal que **crea** un `Map`. Las claves y los tipos de retorno **son determinados** por los parámetros que **se pasen**. Los valores en el `Map` son una `Collection` para todas las entradas que **mapean** a esa clave. El método `partitioningBy()` también **devuelve** un `Map`. Esta vez, las claves son `true` y `false`. Los valores son nuevamente una `Collection` de coincidencias. Si no hay coincidencias para ese `boolean`, la `Collection` está vacía.
-
----
-
-**Ver también:** [[Arrays]] | [[Algoritmos]]

@@ -763,8 +763,3 @@ System.out.println(count);
 ```
 
 El estilo que **se use** es decisión propia. Sin embargo, **se necesita** poder leer ambos estilos antes de **tomar** el examen.
-
----
-
-**Ver también:** [[Arrays]] | [[Algoritmos]]
-
