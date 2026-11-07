@@ -1,0 +1,1 @@
+Las respuestas a las preguntas de revisión del capítulo se encuentran en el Apéndice del libro, el cual **no** está incluido en el material fuente disponible (el PDF del Capítulo 12 termina en las preguntas de revisión).
