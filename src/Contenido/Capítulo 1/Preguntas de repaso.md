@@ -1,4 +1,4 @@
-Las respuestas a las preguntas de revisión del capítulo se pueden encontrar al final del capitulo.
+Las respuestas a las preguntas de revisión del capítulo se pueden encontrar al final del capítulo.
 
 **1.** ¿Cuáles de los siguientes son métodos de punto de entrada legales que se pueden ejecutar desde la línea de comandos? (Elija todas las opciones que correspondan).
 

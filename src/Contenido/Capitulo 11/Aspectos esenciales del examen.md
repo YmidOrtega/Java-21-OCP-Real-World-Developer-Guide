@@ -1,5 +1,3 @@
-## Aspectos Esenciales del Examen
-
 **Comprender los distintos tipos de excepciones.** Todas las excepciones son subclases de `java.lang.Throwable`. Las subclases de `java.lang.Error` **nunca deben ser atrapadas**. Solo las subclases de `java.lang.Exception` **deben manejarse** en el código de la aplicación.
 
 **Diferenciar entre excepciones verificadas y no verificadas.** Las excepciones no verificadas no necesitan **ser atrapadas** ni manejadas y son subclases de `java.lang.RuntimeException` o `java.lang.Error`. Todas las demás subclases de `java.lang.Exception` son excepciones verificadas y deben **ser manejadas** o declaradas.

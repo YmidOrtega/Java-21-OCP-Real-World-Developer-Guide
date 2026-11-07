@@ -1,3 +1,5 @@
+Las respuestas a las preguntas de revisión del capítulo se pueden encontrar al final del capítulo.
+
 **1.** ¿Qué afirmaciones sobre el modificador `final` son correctas? (Elija todas las opciones que correspondan).
 
 - [ ]  A. Las variables de instancia y estáticas pueden marcarse como `final`.

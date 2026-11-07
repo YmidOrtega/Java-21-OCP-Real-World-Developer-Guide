@@ -1,4 +1,4 @@
-Bienvenido al comienzo del viaje para lograr una certificación en Java 21. Se asume que este no es el primer libro de programación Java que se lee. Aunque se habla de los conceptos básicos, se hace únicamente porque se desea asegurar que se cuenta con toda la terminología y los detalles necesarios para el examen.
+Bienvenido al comienzo del viaje para lograr una certificación en Java 21. Se asume que este no es el primer proyecto de programación Java que se lee. Aunque se habla de los conceptos básicos, se hace únicamente porque se desea asegurar que se cuenta con toda la terminología y los detalles necesarios para el examen.
 
 Si nunca se ha escrito un programa en Java antes, se recomienda adquirir un libro introductorio sobre Java 8 o superior. Algunos ejemplos incluyen _Head First Java, 3rd Edition_ (O’Reilly Media, 2022) y _Beginning Programming with Java for Dummies_ (For Dummies, 2021). Luego, se sugiere regresar a esta guía de estudio para la certificación.
 

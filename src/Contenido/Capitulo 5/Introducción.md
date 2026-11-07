@@ -4,5 +4,5 @@
 4. [[Aplicar estrategias para realizar el examen]]
 5. [[Realizar el examen]]
 6. [[Mapa de objetivos]]
-7. [[PROGRAMACION/LENGUAJES/JAVA/Certificación/Contenido/Introducción/Evaluación inicial|Evaluación inicial]]
+7. [[Contenido/Introducción/Evaluación inicial|Evaluación inicial]]
 8. [[Respuestas a la Prueba de Evaluación]]

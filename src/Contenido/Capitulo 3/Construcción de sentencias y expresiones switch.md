@@ -510,7 +510,7 @@ El compilador es lo suficientemente inteligente para saber que un `Number` no pu
 
 Como se mencionó anteriormente en el capítulo, el orden de las cláusulas `case` y `default` para la sentencia `switch` importa, porque se puede llegar a más de una rama durante la ejecución. Para expresiones `switch` que no usan coincidencia de patrones, el orden no es importante, ya que solo se puede llegar a una rama.
 
-Bueno, al trabajar con coincidencia de patrones, ¡el orden importa independientemente del tipo de `switch`! Por ejemplo, considérese esta nueva versión de `printDetails()` en la cual se ha cambiado el orden:
+Bueno, al trabajar con coincidencia de patrones, ¡el orden importa independientemente del tipo de `switch`! Por ejemplo, considere esta nueva versión de `printDetails()` en la cual se ha cambiado el orden:
 
 ```Java
 void printDetails(Number height) {

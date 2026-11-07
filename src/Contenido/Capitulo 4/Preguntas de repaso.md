@@ -1,4 +1,4 @@
-Las respuestas a las preguntas de revisión del capítulo se pueden encontrar al final del capitulo.
+Las respuestas a las preguntas de revisión del capítulo se pueden encontrar al final del capítulo.
 
 **1.** ¿Qué emite el siguiente código?
 

@@ -6,7 +6,7 @@ Una **variable local** es una variable definida dentro de un constructor, métod
 
 ### Variables locales finales (`final`)
 
-La palabra clave `final` puede aplicarse a variables locales y es equivalente a declarar constantes en otros lenguajes. Considérese este ejemplo:
+La palabra clave `final` puede aplicarse a variables locales y es equivalente a declarar constantes en otros lenguajes. Considere este ejemplo:
 
 ``` Java
 5: final int y = 10;

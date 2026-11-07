@@ -10,7 +10,7 @@ Existen dos variables con alcance local. La variable `bitesOfCheese` se declara 
 
 ### Limitación del alcance
 
-Las variables locales nunca pueden tener un alcance mayor que el método en el que están definidas. Sin embargo, pueden tener un alcance menor. Considérese este ejemplo:
+Las variables locales nunca pueden tener un alcance mayor que el método en el que están definidas. Sin embargo, pueden tener un alcance menor. Considere este ejemplo:
 
 ```Java
 3: public void eatIfHungry(boolean hungry) {

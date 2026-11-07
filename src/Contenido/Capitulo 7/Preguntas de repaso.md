@@ -1,4 +1,4 @@
-Las respuestas a las preguntas de revisión del capítulo se pueden encontrar al final del capitulo.
+Las respuestas a las preguntas de revisión del capítulo se pueden encontrar al final del capítulo.
 
 **1. ¿Cuáles de las siguientes son declaraciones de `record` válidas?** (_Se deben seleccionar todas las opciones que apliquen_).
 

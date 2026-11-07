@@ -1,4 +1,4 @@
-Las respuestas a las preguntas de revisión del capítulo se pueden encontrar al final del capitulo.
+Las respuestas a las preguntas de revisión del capítulo se pueden encontrar al final del capítulo.
 
 **1.** Supón que necesitas mostrar una colección de productos para la venta, que puede contener duplicados. Además, tienes una colección de ventas que necesitas rastrear, ordenada por el orden natural del ID de la venta, y necesitas recuperar el texto de cada una. ¿Cuáles dos de las siguientes clases se adaptan mejor a tus necesidades para cada uno de estos escenarios? (Elige dos.)
 

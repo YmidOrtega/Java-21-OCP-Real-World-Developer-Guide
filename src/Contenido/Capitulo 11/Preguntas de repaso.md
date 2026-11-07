@@ -1,4 +1,4 @@
-Las respuestas a las preguntas de repaso del capítulo **se pueden** encontrar en el Apéndice.
+Las respuestas a las preguntas de revisión del capítulo se pueden encontrar al final del capítulo.
 
 **1.** ¿Cuál de los siguientes **puede** insertarse en la línea 8 para que este código compile? (_Se deben seleccionar todas las opciones que apliquen_)
 

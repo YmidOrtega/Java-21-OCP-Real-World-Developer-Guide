@@ -162,20 +162,20 @@ throw e;
 
 El código instancia una excepción en una línea y luego la lanza en la siguiente. La excepción puede provenir de cualquier lugar, incluso ser pasada a un método. **Siempre que sea una excepción válida, se puede lanzar.**
 
-El examen también podría intentar engañarte. ¿Ves por qué este código no se compila?
+El examen también podría intentar engañarte. ¿Ves por qué este código no compila?
 
 ```Java
-throw RuntimeException(); // NO SE COMPILA
+throw RuntimeException(); // NO COMPILA
 ```
 
-Si tu respuesta es que falta una palabra clave, tienes toda la razón. **La excepción nunca se instancia con la palabra clave `new`.**
+Si tu respuesta es que falta una palabra clave, tienes toda la razón. **La excepción nunca fue instanciada con la palabra clave `new`.**
 
-Echemos un vistazo a otro punto en el que el examen podría intentar engañarte. ¿Puedes ver por qué lo siguiente no se compila?
+Echemos un vistazo a otro punto en el que el examen podría intentar engañarte. ¿Puedes ver por qué lo siguiente no compila?
 
 ```Java
 3: try {
 4:    throw new RuntimeException();
-5:    throw new ArrayIndexOutOfBoundsException(); // NO SE COMPILA
+5:    throw new ArrayIndexOutOfBoundsException(); // NO COMPILA
 6: } catch (Exception e) {}
 ```
 
@@ -183,14 +183,14 @@ Dado que la línea 4 lanza una excepción, nunca se puede llegar a la línea 5 d
 
 ### Llamadas a métodos que lanzan excepciones
 
-Cuando llamas a un método que lanza una excepción, **las reglas son las mismas que para manejar una excepción dentro del método**. ¿Entiendes por qué lo siguiente no se compila?
+Cuando llamas a un método que lanza una excepción, **las reglas son las mismas que para manejar una excepción dentro del método**. ¿Entiendes por qué lo siguiente no compila?
 
 ```Java
 class NoMoreCarrotsException extends Exception {}
 public class Bunny {
 	private void eatCarrot() throws NoMoreCarrotsException {}
 	public void hopAround() {
-		eatCarrot(); // NO SE COMPILA
+		eatCarrot(); // NO COMPILA
 	}
 }
 ```
@@ -222,7 +222,7 @@ public class Bunny {
 	public void bad() {
 		try {
 			eatCarrot();
-		} catch (NoMoreCarrotsException e) { // NO SE COMPILA
+		} catch (NoMoreCarrotsException e) { // NO COMPILA
 			System.out.print("conejo triste");
 		}
 	}
@@ -243,7 +243,7 @@ class Hopper {
 	public void hop() {}
 }
 public class Bunny extends Hopper {
-	public void hop() throws CanNotHopException {} // NO SE COMPILA
+	public void hop() throws CanNotHopException {} // NO COMPILA
 }
 ```
 

@@ -1,4 +1,4 @@
-Las respuestas a las preguntas de repaso del capítulo **se pueden encontrar** en el Apéndice.
+Las respuestas a las preguntas de revisión del capítulo se pueden encontrar al final del capítulo.
 
 **1.** ¿Cuál podría ser la salida del siguiente código?
 

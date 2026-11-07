@@ -1,4 +1,4 @@
-Las respuestas a las preguntas de revisión del capítulo se pueden encontrar al final del capitulo.
+Las respuestas a las preguntas de revisión del capítulo se pueden encontrar al final del capítulo.
 
 **1.** ¿Cuál es la salida del siguiente fragmento de código?
 
