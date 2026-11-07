@@ -28,9 +28,9 @@ El proyecto está organizado en una introducción y **14 capítulos**:
 | 8  | Lambdas e Interfaces Funcionales   | Lambdas, referencias a métodos, interfaces funcionales integradas | ✅ |
 | 9  | Colecciones y Genéricos            | `List`, `Set`, `Queue`, `Map`, ordenación, colecciones secuenciadas, genéricos | ✅ |
 | 10 | Streams                            | `Optional`, Stream API, streams primitivos, pipelines avanzados | ✅ |
-| 11 | Excepciones y Localización         | Manejo de excepciones, recursos, formato de valores, internacionalización | ⏳ |
-| 12 | Módulos                            | Programas modulares, declaraciones de módulos, servicios, migración | ⏳ |
-| 13 | Concurrencia                       | Hilos, Concurrency API, código thread-safe, streams paralelos  | ⏳ |
+| 11 | Excepciones y Localización         | Manejo de excepciones, recursos, formato de valores, internacionalización | ✅ |
+| 12 | Módulos                            | Programas modulares, declaraciones de módulos, servicios, migración | ✅ |
+| 13 | Concurrencia                       | Hilos, Concurrency API, código thread-safe, streams paralelos  | ✅ |
 | 14 | I/O                                | Archivos y directorios, streams de I/O, NIO.2, serialización   | ⏳ |
 
 Cada capítulo incluye sus secciones teóricas, un **resumen**, los **aspectos esenciales del examen**, **preguntas de repaso** y sus **respuestas**.
